@@ -28,7 +28,11 @@ a {}
 
 p{}
 
-ol {}
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 ul {}
 
@@ -41,8 +45,9 @@ ul {}
 
 .masthead {
    background-color: #3f51b5;
-   padding: 20px 0;
    color: #fff;
+   margin-bottom: 40px;
+   padding: 20px 0;
    text-align: center;
 }
 
@@ -50,4 +55,36 @@ ul {}
   font-size: 34px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/*
+ --------------------
+   Main
+ ---------------------
+*/
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/*
+ --------------------
+   News List
+ ---------------------
+*/
+.news{
+   font-size: 24px;
+
+}
+
+.news-item {
+  border-bottom: 1px solid #b6b6b6;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+}
+
+.news-link {
+   color: #3f51b5;
+
 }
